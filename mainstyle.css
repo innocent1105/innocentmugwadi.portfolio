@@ -275,16 +275,16 @@ color: aliceblue;
 /*        border-style: solid;*/
     }
     .first-tab p{
-        font-size: 25px;
+        font-size: 18px;
     }
     .project-text{
     margin-left: 40px;
-    font-size: 23px;
+    font-size: 30px;
 color: aliceblue;
     margin-top: 40px;
 }.p-t{
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 25px;
 color: aliceblue;
 opacity: 0.8;
 }
