@@ -22,6 +22,9 @@ nav a{
     text-decoration: none;
     color: #605c73;
 }
+nav .menu{
+    display: none;
+}
 nav .center{
     display: flex;
     justify-content: space-between;
@@ -256,6 +259,121 @@ nav .center .active{
 }
 
 
+
+/* Mobile response */
+@media (max-width: 970px) {
+    .st-tab .left .role{
+        font-size: 60px;
+        font-weight: 700;
+        display: flex;
+    }
+    .left .dev{
+        font-size: 60px;
+        font-weight: 700;
+        display: flex;
+    }
+    .st-tab .right{
+        border-radius: 50%;
+        /* /* width: 250px; */
+        height: min-content; 
+        padding: 10px;
+        border-style: solid;
+        border-color: #eee9f6;
+        display: none;
+    } 
+    .st-tab .img{
+        width: 120px;
+        height: 120px;
+        background-image: url("../images/me.jpg");
+        background-size: contain;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #eee9f6;
+        border-width: thick;
+    }
+
+    .mini-text{
+        padding-left: 5px;
+    }
+    .btns .contact{
+        width: auto;
+        height: auto;
+        border-style: hidden;
+        background-color: #690ffb;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    .btns{
+        margin-top: 25px;
+        display: flex;
+    }
+    .btns .git{
+        width: auto;
+        height: auto;
+        border-style: solid;
+        border-width: thin;
+        background-color: #ffffff;
+        color: #42414a;
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        margin-left: 5px;
+        border-color: #605c73;
+    }
+    
+.projects{
+    width: auto;
+    height: auto;
+    /* border-style: solid; */
+    /* padding: 25px; */
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    gap: 35px;
+}
+.projects .left{
+    width: 100%;
+    height: auto;
+    /* padding: 10; */
+    /* border-style: solid; */
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+.projects .right{
+    width: 100%;
+    height: auto;
+    /* padding: 10; */
+    /* padding: 35px; */
+    border-radius: 15px;
+    /* border-style: solid; */
+}
+.project-img img{
+    width: 90%;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+nav .menu{
+    display: block;
+}
+nav .center{
+    display: none;
+}
+nav .hire{
+    display: none;
+}
+}
 
 
 
