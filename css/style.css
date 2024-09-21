@@ -364,6 +364,7 @@ nav .center .active{
     border-radius: 15px;
     margin-left: 5%;
 }
+
 nav .menu{
     display: block;
 }
@@ -373,6 +374,35 @@ nav .center{
 nav .hire{
     display: none;
 }
+.st-tab{
+    width: auto;
+    height: auto;
+    /* border-style: solid; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 70px;
+}
+nav{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    /* border-style: solid; */
+    padding: 25px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-top: 20px;   
+}
+
 }
 
 
