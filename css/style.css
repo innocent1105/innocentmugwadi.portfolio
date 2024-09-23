@@ -433,19 +433,38 @@ nav{
     color: #57555e;
     margin-bottom: 25px;
 }
+
+@keyframes show {
+    1% {
+        left: 80%;
+    }
+    50% {
+        left: 20%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+
+
 .mobile-menu{
     width: auto;
     height: 100vh;
     background-color: #171719;
     position: fixed;
-    display: block;
+    display: none;
     left: 0;
     right: 0;
     top: 0;
     padding: 25px;
     background-image: url("../images/me2.jpg");
     background-size: cover;
+    transition-duration: 0.3s;
+    transition: grow;
+    animation: grow 0.3s ease-in-out;
 }
+
 .mobile-menu .menu-header{
     display: flex;
     justify-content: space-between;
